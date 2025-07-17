@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niral Saxena | Web Developer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    .typewriter {
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: none;
+      animation: typing 3s steps(30, end) forwards;
+      display: inline-block;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0
+      }
+
+      to {
+        width: 100%
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-blue-50 to-purple-100 text-gray-800 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-white shadow p-4 fixed w-full top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-700">Niral Saxena</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-purple-600 font-medium">Home</a></li>
+        <li><a href="#about" class="hover:text-purple-600 font-medium">About</a></li>
+        <li><a href="#projects" class="hover:text-purple-600 font-medium">Projects</a></li>
+        <li><a href="#contact" class="hover:text-purple-600 font-medium">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center pt-24 text-center">
+    <img src="https://avatars.githubusercontent.com/u/000000?v=4" alt="Niral Saxena" class="rounded-full shadow-lg mb-4 border-4 border-blue-300 w-40 h-40 object-cover">
+    <h2 class="text-4xl font-bold text-blue-800">Hi, I'm Niral Saxena</h2>
+    <p class="text-lg text-gray-700 mt-3 typewriter">Web Developer & Designer</p>
+<p class="italic text-gray-500">"Turning coffee into code."</p>
+    <a href="#" class="mt-6 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full shadow hover:scale-105 transition-transform">Download Resume</a>
+    <div class="flex justify-center mt-6 space-x-6 text-2xl">
+      <a href="#" class="text-blue-600 hover:text-blue-800"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="text-gray-700 hover:text-black"><i class="fab fa-github"></i></a>
+      <a href="#" class="text-blue-400 hover:text-blue-600"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="text-pink-600 hover:text-pink-800"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="p-10 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-purple-700 mb-6">About Me</h2>
+      <p class="mb-6 text-gray-600">I'm a passionate Web Developer skilled in creating responsive, interactive, and clean websites. I love building products that improve user experiences.</p>
+      <div class="grid md:grid-cols-2 gap-6 text-left">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <h3 class="font-semibold mb-2">Skills:</h3>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>HTML</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <h3 class="font-semibold mb-2">Education:</h3>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>The Northcap University - B.Tech in Computer Science - 2027</li>
+            <li>International School - 2023</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Projects Section -->
+<section id="projects" class="p-10 bg-gray-100">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-blue-800 text-center mb-4">My Projects</h2>
+    <p class="text-center text-gray-600 mb-10">Discover a showcase of my most compelling projects—each crafted with a blend of innovation, clean code, and thoughtful UI design. Whether it's building a real-time chat app, creating responsive portfolios, or integrating APIs for weather insights, every project reflects my passion for building meaningful digital experiences.</p>
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <!-- Project 1 -->
+      <div class="bg-white p-4 rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transition-transform">
+        <img src="https://placehold.co/300x200" alt="Project 1" class="mb-4 rounded">
+        <h3 class="font-semibold mt-3 text-purple-700">Real-Time Chat App</h3>
+        <p class="text-gray-600">A dynamic chat application enabling seamless real-time communication between users. Built with Node.js and Socket.io, it ensures fast, synchronized messaging across devices.</p>
+        <a href="https://github.com/yourusername/chatapp" class="text-blue-600">GitHub</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-white p-4 rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transition-transform">
+        <img src="https://placehold.co/300x200" alt="Project 1" class="mb-4 rounded">
+        <h3 class="font-semibold mt-3 text-purple-700">Personal Portfolio</h3>
+        <p class="text-gray-600">A modern, responsive, and fully accessible portfolio built with Tailwind CSS. Highlights skills, projects, and contact info for professional outreach.</p>
+        <a href="https://github.com/yourusername/portfolio" class="text-blue-600">GitHub</a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-white p-4 rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transition-transform">
+        <img src="https://placehold.co/300x200" alt="Project 1" class="mb-4 rounded">
+        <h3 class="font-semibold mt-3 text-purple-700">Weather Forecast App</h3>
+        <p class="text-gray-600">Get live weather updates based on location using the OpenWeatherMap API. Displays temperature trends and intuitive UI for daily planning.</p>
+        <a href="https://github.com/yourusername/weatherapp" class="text-blue-600">GitHub</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  
+  <!-- Contact Section -->
+  <section id="contact" class="p-10 bg-white">
+    <div class="max-w-md mx-auto text-center">
+      <h2 class="text-3xl font-bold text-purple-700 mb-6">Contact Me</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400">
+        <input type="email" placeholder="Your Email" class="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400">
+        <textarea placeholder="Your Message" rows="4" class="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded shadow">Submit</button>
+<div class="flex justify-center mt-4 space-x-6 text-2xl">
+  <a href="#" class="text-blue-600 hover:text-blue-800"><i class="fab fa-linkedin"></i></a>
+  <a href="#" class="text-gray-700 hover:text-black"><i class="fab fa-github"></i></a>
+  <a href="#" class="text-blue-400 hover:text-blue-600"><i class="fab fa-twitter"></i></a>
+  <a href="#" class="text-pink-600 hover:text-pink-800"><i class="fab fa-instagram"></i></a>
+</div>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Footer with Social Icons -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p class="mb-2">&copy; 2025 Niral Saxena. All rights reserved. Designed with ❤️ using Tailwind CSS</p>
+    <div class="flex justify-center space-x-6">
+      <!-- GitHub Icon -->
+      <a href="https://github.com" target="_blank" aria-label="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-blue-400" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.94.58.1.79-.25.79-.56v-1.97c-3.2.7-3.87-1.45-3.87-1.45-.53-1.35-1.3-1.71-1.3-1.71-1.07-.73.08-.72.08-.72 1.18.08 1.8 1.2 1.8 1.2 1.05 1.8 2.76 1.28 3.43.98.1-.76.41-1.28.75-1.58-2.55-.29-5.23-1.27-5.23-5.64 0-1.25.45-2.27 1.2-3.07-.12-.3-.52-1.51.11-3.15 0 0 .98-.31 3.2 1.18a11.2 11.2 0 0 1 5.83 0C17.8 6.35 18.78 6.66 18.78 6.66c.63 1.64.23 2.85.11 3.15.75.8 1.2 1.82 1.2 3.07 0 4.38-2.69 5.34-5.25 5.62.42.37.8 1.1.8 2.22v3.29c0 .31.21.66.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+        </svg>
+      </a>
+
+<!-- LinkedIn Icon -->
+      <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-blue-400" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M4.98 3.5C3.34 3.5 2 4.84 2 6.48c0 1.63 1.34 2.97 2.98 2.97 1.64 0 2.97-1.34 2.97-2.97C7.95 4.84 6.62 3.5 4.98 3.5zM2.4 21h5.16V9H2.4v12zM16.64 9c-1.39 0-2.3.76-2.68 1.48h-.04V9h-5.17v12h5.2v-6.7c0-1.77.33-3.48 2.52-3.48 2.15 0 2.17 2.02 2.17 3.6V21h5.17v-6.92c0-3.62-.79-6.08-5.17-6.08z"/>
+        </svg>
+      </a>
+      <!-- Twitter Icon -->
+      <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-blue-400" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M23.95 4.57a10 10 0 0 1-2.82.78 4.93 4.93 0 0 0 2.17-2.71c-.95.56-2.01.97-3.13 1.2a4.92 4.92 0 0 0-8.4 4.49c-4.09-.2-7.71-2.17-10.14-5.14a4.93 4.93 0 0 0-.66 2.48c0 1.71.87 3.22 2.18 4.1a4.93 4.93 0 0 1-2.23-.61v.06a4.92 4.92 0 0 0 3.95 4.83 4.9 4.9 0 0 1-1.29.17c-.31 0-.62-.03-.92-.08a4.93 4.93 0 0 0 4.6 3.42 9.86 9.86 0 0 1-6.1 2.1c-.4 0-.79-.02-1.17-.07A13.9 13.9 0 0 0 7.55 21c9.05 0 14-7.5 14-14 0-.21 0-.42-.01-.63a9.87 9.87 0 0 0 2.41-2.5z"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
