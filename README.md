@@ -1,2 +1,2 @@
 # portfolio_website
-A modern, responsive, and visually engaging developer portfolio built with Tailwind CSS. Includes animated elements, interactive sections, and custom project showcases — perfect for showcasing skills, projects, and contact info.
+A modern, responsive, and visually engaging developer portfolio built with Tailwind CSS. Includes animated elements, interactive sections, and custom project showcases — perfect for showcasing skills, projects, and contact info.I learned how to use Tailwind's utility classes to style and organize content efficiently. The project helped me practice layout design, responsiveness, and structuring real-world sections like about, projects, and contact. I'm happy with how it turned out and plan to keep improving it.
